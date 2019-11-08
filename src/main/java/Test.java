@@ -68,6 +68,7 @@ public class Test {
             robot.keyRelease(KeyEvent.VK_V);
             robot.keyRelease(KeyEvent.VK_CONTROL);
 
+
             //等待
             Thread.sleep(1000);
 

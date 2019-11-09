@@ -19,7 +19,7 @@ public class VariFlight {
 
     public static void main(String[] args) throws Exception {
         //设置系统变量
-        System.setProperty("webdriver.chrome.driver", "chromedriver78.exe");
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
 //        System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chromedriver.exe");
         //实例化一个Chrome浏览器的实例
         driver = new ChromeDriver();

@@ -21,25 +21,17 @@
     </build>
 
     <dependencies>
-    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
-    <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-java</artifactId>
-        <version>3.141.59</version>
-    </dependency>
-        <!-- https://mvnrepository.com/artifact/org.xhtmlrenderer/flying-saucer-pdf-itext5 -->
-
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
-
-            <groupId>org.xhtmlrenderer</groupId>
-
-            <artifactId>flying-saucer-pdf-itext5</artifactId>
-
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.141.59</version>
         </dependency>
+
         <dependency>
             <groupId>com.github.jhonnymertz</groupId>
             <artifactId>java-wkhtmltopdf-wrapper</artifactId>
             <version>1.1.11-RELEASE</version>
         </dependency>
-</dependencies>
+    </dependencies>
 </project>
